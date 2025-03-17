@@ -123,7 +123,7 @@ d) ["banana", "maçã", "uva", "abacaxi", "manga"]
 
 resposta: **letra C**
 
-O método splice() permite modificar um array removendo elementos existentes e colocando novos no mesmo lugar, então o console.log() imprimi:  ["banana", "abacaxi", "manga", "laranja"], pois "maçã" e "uva" foram substituídos por "abacaxi" e "manga", mantendo os outros elementos do array iguais.
+A função splice() permite modificar um array removendo elementos existentes e colocando novos no mesmo lugar, então o console.log() imprimi:  ["banana", "abacaxi", "manga", "laranja"], pois "maçã" e "uva" foram substituídos por "abacaxi" e "manga", mantendo os outros elementos do array iguais.
 ______
 **6) Abaixo há duas afirmações sobre herança em JavaScript. Indique a alternativa correta e justifique sua resposta**
 
@@ -142,7 +142,7 @@ d) A primeira afirmação é falsa, e a segunda é verdadeira.
 Resposta: **Letra A**
 
 A primeira afirmação está certa porque a herança em JavaScript permite que uma classe reutilize propriedades de outra classe, o que evita a duplicação de código.
-A segunda afirmação também está certa, pois em JavaScript a herança é usada com a palavra-chave extends. Quando uma classe usa extends, ela herda todos os métodos e propriedades da classe pai. Como a segunda afirmação explica como a herança funciona, ela justifica a primeira afirmação. 
+A segunda afirmação também está certa, pois em JavaScript a herança é usada com a palavra-chave extends. Quando uma classe usa extends, ela herda todas as funções e propriedades da classe pai. Como a segunda afirmação explica como a herança funciona, ela justifica a primeira afirmação. 
 ______
 **7) Dado o seguinte código. Indique a alternativa correta e justifique sua resposta.**
 
@@ -189,7 +189,7 @@ d) Apenas I é verdadeira.
 
 Resposta: **Letra A**
 
-A primeira afirmação está certa porque a classe Funcionario herda da classe Pessoa através do extends. Como as variaveis nome e idade são definidos no constructor de Pessoa, a subclasse Funcionario tem acesso a elas através de this.
+A primeira afirmação está certa porque a classe Funcionario herda da classe Pessoa através do extends. Como as variáveis nome e idade são definidos no constructor de Pessoa, a subclasse Funcionario tem acesso a elas através de this.
 A segunda afirmação também esta certa, pois a função apresentar() da classe Funcionario sobrescreve a função apresentar() da classe Pessoa, mas antes de imprimir seu próprio código, ele sobrescreve super.apresentar(), fazendo a classe pai ser executada antes de adicionar a nova funcionalidade, que é exibir o salário do funcionário.
 ______
 
